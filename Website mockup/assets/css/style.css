@@ -1,0 +1,86 @@
+body {
+    font-family: 'Lato', Sans-Serif;
+    color: #322A27;
+}
+
+#jumbotron {
+    text-align: center;
+    background: #FFFFFF;
+}
+
+#navbar {
+    background: #BCC344
+}
+
+.nav-link {
+    font-family: 'Arvo', Serif;
+    display: inline;
+    margin-right: 30px;
+}
+
+#abtUsLink, #colBenLink, #newsLink, #mbrsLink, #histLink, #svcsLink, #empLink {
+    color: #FFFFFF;
+}
+
+img {
+    margin-bottom: 20px;
+}
+
+#mission {
+    background: #DFB297;
+    width: 45%;
+    float: right;
+    border-style: double;
+    border-color: #D0802B;
+    color: #FFFFFF;
+}
+
+#vision {
+    background: #FEE8B6;
+    color: #322A27;
+    width: 25%;
+    float: left;
+    margin-right: 5px;
+    border-style: double;
+    border-color: #D0802B
+}
+
+.NHRow {
+    margin-bottom: 20px;
+}
+
+.MapList {
+    height: 460px;
+    width: 300px;
+    overflow: scroll;
+    overflow-x: hidden;
+    float: right;
+}
+
+.MapListItem {
+    font-size: 14px;
+}
+
+#map1, #map2 {
+    height: 500px;
+    width: 500px;
+}
+
+#map1 {
+    float: left;
+}
+
+footer {
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-color: #D0802B;
+    background: #DFB297;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footerTxt {
+    text-align: center;
+    color: white;
+}
