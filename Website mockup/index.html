@@ -9,15 +9,18 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Arvo|Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
     <script src="./assets/js/javascript.js"></script>
 </head>
 
 <body>
     <div class="container-fluid">
-        <div class="jumbotron" id="jumbotron">
+        <div class="jumbotron jumbotron-fluid" id="jumbotron">
             <h1 class="display-4">Welcome to CHAN</h1>
             <p class="lead">Community Health Access Network</p>
+            <hr class="my-4">
+            <p class="lead">For more then 15 years, CHAN has methodically built an infrastructure that affords innovative opportunities.  CHAN's cumulative endeavors, particularly in the Health Information Technology (HIT) arena, enable the provision of enriched patient experiences and quality care through HIT.</p>
         </div>
 
 
@@ -30,25 +33,25 @@
             <div class="collapse navbar-collapse nav justify-content-center" id="navbarText">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" id="abtUsLink" href="#">About us</a>
+                        <a class="nav-link" id="abtUsLink" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="colBenLink" href="/benefits.html">Collaborative Benefits</a>
+                        <a class="nav-link" id="colBenLink" href="./benefits.html">Collaborative Benefits</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="newsLink" href="/news.html">News</a>
+                        <a class="nav-link" id="newsLink" href="./news.html">News</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="mbrsLink" href="/members.html">Our Members</a>
+                        <a class="nav-link" id="mbrsLink" href="./members.html">Our Members</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="histLink" href="/history.html">History</a>
+                        <a class="nav-link" id="histLink" href="./history.html">History</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="svcsLink" href="/services.html">Our Services</a>
+                        <a class="nav-link" id="svcsLink" href="./services.html">Our Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="empLink" href="/careers.html">Employment Opportunities</a>
+                        <a class="nav-link" id="empLink" href="./careers.html">Employment Opportunities</a>
                     </li>
                 </ul>
             </div>
@@ -58,53 +61,71 @@
         <img src="https://github.com/stlefebvre/CHAN/blob/master/brainstorming-colleagues-communication-1204649.jpg?raw=true" class="img-fluid"
             alt="Meeting Picture">
 
-        <div class="container-fluid">
-            <div class="container" id="vision">
-                <blockquote class="blockquote text-left">
-                    <p class="mb=0">
-                        <span class="ourStatement">Our Vision:</span> To position CHAN as a model for functional integration, using current technology
-                        and a body of health</p>
-                </blockquote>
+        <div class="container-fluid" id="AboutCardCtnr">
+            <div class="row justify-content-center" id="AboutCardRow">
+                <div class="card text-center col-md-5 misVisStmnt" id="missionCard">
+                    <div class="card-body">
+                        <i class="fab fa-readme fa-5x" id="missionIcon"></i>
+                        <h5 class="card-title misVisTitle">Our Mission</h5>
+                        <p class="card-text misVisTxt">To enable our member agencies to develop the program and resources necessary to assure access to
+                            efficient, effective quality health care for all clients in our communities, particularly the
+                            uninsured, Medicaid, and medically underserved populations</p>
+                    </div>
+                </div>
+
+                <div class="card text-center col-md-5 misVisStmnt" id="missionCard">
+                    <div class="card-body">
+                        <i class="fas fa-eye fa-5x" id="visionIcon"></i>
+                        <h5 class="card-title misVisTitle">Our Vision</h5>
+                        <p class="card-text misVisTxt">To position CHAN as a model for functional integration, using current technology and a body of health
+                            information
+                        </p>
+                    </div>
+                </div>
             </div>
-
-            <p>
-                The Community Health Access Network (CHAN) is the only Health Center Controlled Network (HCCN) in New Hampshire. Established
-                in 1995, CHAN has developed and supports an integrated clinical and administrative system infrastructure
-                for its ten Federally Qualified Health Center (FQHC) members which includes 3 Healthcare for the Homeless
-                Programs.
-            </p>
-
-            <div class="container" id="mission">
-                <blockquote class="blockquote text-left">
-                    <p class="mb=0">
-                        <span class="ourStatement">Our Mission:</span> To enable our member agencies to develop the program and resources necessary
-                        to assure access to efficient, effective quality health care for all clients in our communities,
-                        particularly the uninsured, Medicaid, and medically underserved populations</p>
-                </blockquote>
-            </div>
-
-            <p>
-                Central to CHAN's focus has been the automation of the primary care health record. CHAN's systems include a fully integrated
-                Electronic Health Record (EHR), GE Centricity, which supports over 130 providers and partner hospitals. The
-                EHR also has links to member reference labs and four hospitals. The EHR is linked to the GE Centricity Practice
-                Management (PM) system and shares a common reporting tool. The providers can also securely access the system
-                remotely to support offsite care.
-            </p>
-
-            <p>
-                CHAN also provides technical assistance and system services to local collaborators and consultation to peers at a national
-                level.
-            </p>
         </div>
 
-        <footer>
-            <small>
-                <p class="footerTxt">207A South Main Street
-                    <br> Newmarket, NH 03857-1843
-                    <br> P: 603-292-1117, F: 603-292-1036
-                    <br> &copy; 2018</p>
-            </small>
-        </footer>
+        <div class="container-fluid">
+            <div class="row justify-content-around" id="btnRow">
+                <button type="button" class="btn btn-primary" href="./request.html" role="button" id="memberBtn">Member Request Forms</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="container-fluid">
+                <p>
+                    The Community Health Access Network (CHAN) is the only Health Center Controlled Network (HCCN) in New Hampshire. Established
+                    in 1995, CHAN has developed and supports an integrated clinical and administrative system infrastructure
+                    for its ten Federally Qualified Health Center (FQHC) members which includes 3 Healthcare for the Homeless
+                    Programs.
+                </p>
+
+                <p>
+                    Central to CHAN's focus has been the automation of the primary care health record. CHAN's systems include a fully integrated
+                    Electronic Health Record (EHR), GE Centricity, which supports over 130 providers and partner hospitals.
+                    The EHR also has links to member reference labs and four hospitals. The EHR is linked to the GE Centricity
+                    Practice Management (PM) system and shares a common reporting tool. The providers can also securely access
+                    the system remotely to support offsite care.
+                </p>
+
+                <p>
+                    CHAN also provides technical assistance and system services to local collaborators and consultation to peers at a national
+                    level.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <small>
+            <p class="footerTxt">207A South Main Street
+                <br> Newmarket, NH 03857-1843
+                <br> P: 603-292-1117, F: 603-292-1036
+                <br> &copy; 2018</p>
+        </small>
+    </footer>
     </div>
     <!--Linked JS-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

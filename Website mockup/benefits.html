@@ -4,11 +4,13 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Our Members</title>
+    <title>Benefits</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Arvo|Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
     <script src="./assets/js/javascript.js"></script>
 </head>
@@ -17,7 +19,7 @@
     <div class="container-fluid">
 
         <div class="jumbotron" id="jumbotron">
-            <h1 class="display-4">Member Locations</h1>
+            <h1 class="display-4">Collaborative Benefits</h1>
         </div>
 
 
@@ -30,29 +32,107 @@
             <div class="collapse navbar-collapse nav justify-content-center" id="navbarText">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" id="abtUsLink" href="#">About us</a>
+                        <a class="nav-link" id="abtUsLink" href="./index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="colBenLink" href="/benefits.html">Collaborative Benefits</a>
+                        <a class="nav-link" id="colBenLink" href="./benefits.html">Collaborative Benefits</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="newsLink" href="/news.html">News</a>
+                        <a class="nav-link" id="newsLink" href="./news.html">News</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="mbrsLink" href="/members.html">Our Members</a>
+                        <a class="nav-link" id="mbrsLink" href="./members.html">Our Members</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="histLink" href="/history.html">History</a>
+                        <a class="nav-link" id="histLink" href="./history.html">History</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="svcsLink" href="/services.html">Our Services</a>
+                        <a class="nav-link" id="svcsLink" href="./services.html">Our Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="empLink" href="/careers.html">Employment Opportunities</a>
+                        <a class="nav-link" id="empLink" href="./careers.html">Employment Opportunities</a>
                     </li>
                 </ul>
             </div>
         </nav>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 offset-3">
+                    <p class="lead">Members of CHAN are supported by highly knowledgable staff. CHAN's goal is to help increase efficiency
+                        and provide the tools to help improve the care of patients</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="card text-center col-md-5 benCard offset-1" id="systemsCard">
+                    <div class="card-body">
+                            <i class="fas fa-desktop fa-7x" id="supportIcon"></i>
+                        <h5 class="card-title benCrdTitle">Systems Support</h5>
+                        <h6 class="card-subtitle mb-2 text-muted benCrdSubtitle">Wide Area Computer Network</h6>
+                        <p class="card-text benCrdTxt">This central computer system model is the core support for a number of shared business appliations
+                            for the medical practice sites. A team of network staff develops and maintains the systems and
+                            provides helpdesk functions.</p>
+                        <h6 class="card-subtitle mb-2 text-muted benCrdSubtitle">Integrated Business Software</h6>
+                        <p class="card-text benCrdTxt">Member practices access the internet and e-mail and utilize state-of-the-art electronic patient records,
+                            practice management and accounting system software through CHAN's central enterprise. THe software
+                            has been linked internally (between systems) and with external data sources to automate the flow
+                            of information. This makes the information timely and preserves the integrity of the data for
+                            clinical decision making.</p>
+                    </div>
+                </div>
+
+                <div class="card text-center col-md-5 benCard" id="trainingCard">
+                    <div class="card-body">
+                        <i class="fas fa-chalkboard-teacher fa-7x" id="trainingIcon"></i>
+                        <h5 class="card-title benCrdTitle">Training</h5>
+                        <p class="card-text benCrdTxt">The practice management and electronic medical record applications are composed of several fully
+                            integrated modules. CHAN provides comprehensive hands-on training designed to meet the clinical
+                            and operational needs of members.</p>
+                        <p class="card-text benCrdTxt">Training emphasis is put on specific roles and job functions within an organization. CHAN also provides
+                            upgrade training when a new version of the application is implemented</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="card text-center col-md-5 benCard offset-1" id="reportCard">
+                    <div class="card-body">
+                        <i class="fas fa-chart-area fa-7x" id="reportIcon"></i>
+                        <h5 class="card-title benCrdTitle">Reporting</h5>
+                        <h6 class="card-subtitle mb-2 text-muted benCrdSubtitle">Reporting and Analytical function</h6>
+                        <p class="card-text benCrdTxt">The HCCN provides the lead on clinical and operations report development and production for the member
+                            sites utilizing the central database and a centralized, robust data warehouse and business intelligence
+                            reporting tools.</p>
+                    </div>
+                </div>
+
+                <div class="card text-center col-md-5 benCard" id="collabCard">
+                    <div class="card-body">
+                        <i class="fas fa-hands-helping fa-7x" id="collabIcon"></i>
+                        <h5 class="card-title benCrdTitle">Collaborative Workgroups</h5>
+                        <p class="card-text benCrdTxt">A big advantage of belonging to the collaborative is the opportunity to learn from one another and
+                            improve systems. The members contribute to the decisions about the system's configuration and
+                            processes that are required to support those decisions</p>
+                        <p class="card-text benCrdTxt">The workgroups are comprised of subject matter experts from our member organizations working together
+                            to manage issues and improvements to the system.</p>
+                        <p class="card-text benCrdTxt">Participants always consider how their decisions and resultant outcomes impact the universal use,
+                            functionality, and effectiveness of the system.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <small>
+                <p class="footerTxt">207A South Main Street
+                    <br> Newmarket, NH 03857-1843
+                    <br> P: 603-292-1117, F: 603-292-1036
+                    <br> &copy; 2018</p>
+            </small>
+        </footer>
     </div>
 
     <!--Linked JS-->

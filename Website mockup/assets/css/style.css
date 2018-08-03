@@ -1,6 +1,12 @@
+html {
+    position: relative;
+    min-height: 100%
+}
+
 body {
     font-family: 'Lato', Sans-Serif;
     color: #322A27;
+    margin-bottom: 80px;
 }
 
 #jumbotron {
@@ -22,27 +28,55 @@ body {
     color: #FFFFFF;
 }
 
+.flex-grow {
+    flex: 1;
+}
+
+#bodCardRow {
+    margin-bottom: 20px;
+}
+
+#BODheader {
+    text-align: center
+}
+
+#bodLeftCard {
+    border: none;
+    padding-right: 0
+}
+
+#bodRightCard {
+    border: none;
+    padding-left: 0
+}
+
+#bodRightCardTxt {
+    padding-left: 0
+}
+
+#test {
+    text-align: center
+}
+
+#bodLeftCardTxt {
+    padding-right: 0;
+    text-align: right
+}
 img {
     margin-bottom: 20px;
 }
 
-#mission {
-    background: #DFB297;
-    width: 45%;
-    float: right;
-    border-style: double;
-    border-color: #D0802B;
-    color: #FFFFFF;
+#AboutCardRow {
+    margin-bottom: 20px;
 }
 
-#vision {
-    background: #FEE8B6;
-    color: #322A27;
-    width: 25%;
-    float: left;
-    margin-right: 5px;
-    border-style: double;
-    border-color: #D0802B
+#btnRow {
+    margin-bottom: 20px;
+}
+
+#memberBtn {
+    background: #DFB297;
+    border: #D0802B;
 }
 
 .NHRow {
@@ -70,14 +104,47 @@ img {
     float: left;
 }
 
+.benCard {
+    border: none;
+}
+
+.fab, .fas {
+    margin-bottom: 10px;
+}
+
+.benCrdSubtitle {
+    text-align: left
+}
+
+.benCrdTxt {
+    text-align: left
+}
+
+#supportIcon, #missionIcon {
+    color: #BCC344;
+}
+
+#trainingIcon {
+    color: #D0802B;
+}
+
+#collabIcon {
+    color: #FEE8B6;
+}
+
+#reportIcon, #visionIcon {
+    color: #DFB297;
+}
+
 footer {
     border-top-style: solid;
     border-top-width: 3px;
     border-color: #D0802B;
     background: #DFB297;
-    left: 0;
+    position: absolute;
     bottom: 0;
     width: 100%;
+    height: 80px;
 }
 
 .footerTxt {
